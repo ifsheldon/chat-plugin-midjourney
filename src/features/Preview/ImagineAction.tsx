@@ -104,7 +104,7 @@ const ImageAction = memo<ImageActionProps>(({ setMask, id }) => {
                   }}
                   shape={'round'}
                 >
-                  风格化
+                  变体
                 </Button>
               </Flexbox>
             </Flexbox>
