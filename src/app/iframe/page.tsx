@@ -3,23 +3,23 @@
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
-import PromptInput from '@/features/Input';
 import ImagePreview from '@/features/Preview';
+import PromptInput from '@/features/PromptEditor';
 import TaskList from '@/features/TaskList';
-import { useStore } from '@/store';
+import { useMidjourneyStore } from '@/store/midjourney';
 
 import './global.css';
 
 const InLobeChatPage = memo(() => {
-  const [useInitApp] = useStore((s) => [s.useInitApp]);
+  const [useInitApp] = useMidjourneyStore((s) => [s.useInitApp]);
 
   useInitApp();
 
   return (
-    <Flexbox gap={12} padding={'0 4px 8px'} style={{ height: '100vh' }}>
+    <Flexbox gap={12} style={{ height: '100dvh' }}>
       <PromptInput />
-      <TaskList />
       <ImagePreview />
+      <TaskList />
     </Flexbox>
   );
 });

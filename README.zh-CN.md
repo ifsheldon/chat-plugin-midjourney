@@ -6,9 +6,9 @@
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
 <img height="120" src="https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/281042486-5e3b9283-9f47-4201-b468-1cb8ef86b3d5.png">
 
-<h1>Midjourney<br/><sup>LobeChat 插件</sup></h1>
+<h1>Lobe Midjourney Web UI<br/></h1>
 
-此插件可以与 [Midjourney](https://www.midjourney.com/) 集成
+此应用可以与 [Midjourney](https://www.midjourney.com/) 集成
 
 [![][🤯-🧩-lobehub-shield]][🤯-🧩-lobehub-link]
 [![][github-release-shield]][github-release-link]
@@ -27,7 +27,7 @@
 
 </div>
 
-![821shots_so](https://github.com/lobehub/chat-plugin-midjourney/assets/28616219/d9dae125-1305-4fa6-957e-6d160dc7a6fe)
+![821shots_so](https://github.com/lobehub/lobe-midjourney-webui/assets/28616219/d9dae125-1305-4fa6-957e-6d160dc7a6fe)
 
 <details>
 <summary><kbd>目录</kbd></summary>
@@ -65,13 +65,13 @@
 
 ### 部署 midjourney-proxy
 
-本插件基于 [midjourney-proxy](https://github.com/novicezk/midjourney-proxy/) 作为 Midjourney 服务的提供方，你需要自行部署一个 midjourney-proxy 服务。部署方法请参考 [📘 midjourney-proxy 部署文档](https://github.com/novicezk/midjourney-proxy/?tab=readme-ov-file#%E4%BD%BF%E7%94%A8%E5%89%8D%E6%8F%90)
+本插件基于 [midjourney-proxy](https://github.com/novicezk/midjourney-proxy/) 作为 Midjourney 服务的提供方，你需要自行部署一个 midjourney-proxy 服务。部署方法请参考 [📘 midjourney-proxy 部署文档](https://github.com/novicezk/midjourney-proxy/?tab=readme-ov-file#%E4%BD%BF%E7%94%A8%E5%89%8D%E6%8F%90) 或者 [指南](docs/Setup-Midjourney-Proxy.zh-CN)。
 
 ### 在 Web 中独立使用
 
 本插件支持在网页中独立使用，可以在 [midjourney-webui](https://midjourney-webui.lobehub.com/) 中体验。
 
-![701shots_so](https://github.com/lobehub/chat-plugin-midjourney/assets/28616219/63e9e558-ef16-485f-ae2e-40a999ab0bc0)
+![701shots_so](https://github.com/lobehub/lobe-midjourney-webui/assets/28616219/63e9e558-ef16-485f-ae2e-40a999ab0bc0)
 
 <div align="right">
 
@@ -88,8 +88,8 @@
 或克隆它进行本地开发：
 
 ```bash
-$ git clone https://github.com/lobehub/chat-plugin-midjourney.git
-$ cd chat-plugin-midjourney
+$ git clone https://github.com/lobehub/lobe-midjourney-webui.git
+$ cd lobe-midjourney-webui
 $ pnpm run install
 $ pnpm run dev
 ```
@@ -137,28 +137,28 @@ $ pnpm run dev
 [🤯-🧩-lobehub-link]: https://github.com/lobehub/lobe-chat-plugins
 [🤯-🧩-lobehub-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square
 [back-to-top]: https://img.shields.io/badge/-返回顶部-151515?style=flat-square
-[github-action-release-link]: https://github.com/lobehub/chat-plugin-midjourney/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-midjourney/release.yml?label=发布&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/lobehub/chat-plugin-midjourney/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-midjourney/test.yml?label=测试&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-codespace-link]: https://codespaces.new/lobehub/chat-plugin-midjourney
+[github-action-release-link]: https://github.com/lobehub/lobe-midjourney-webui/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-midjourney-webui/release.yml?label=发布&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/lobehub/lobe-midjourney-webui/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-midjourney-webui/test.yml?label=测试&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-codespace-link]: https://codespaces.new/lobehub/lobe-midjourney-webui
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
-[github-contrib-link]: https://github.com/lobehub/chat-plugin-midjourney/graphs/contributors
-[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-midjourney
-[github-contributors-link]: https://github.com/lobehub/chat-plugin-midjourney/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/chat-plugin-midjourney?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/lobehub/chat-plugin-midjourney/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/lobehub/chat-plugin-midjourney?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/lobehub/chat-plugin-midjourney/issues
-[github-issues-shield]: https://img.shields.io/github/issues/lobehub/chat-plugin-midjourney?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/lobehub/chat-plugin-midjourney/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/lobehub/chat-plugin-midjourney?color=white&labelColor=black&style=flat-square
-[github-release-link]: https://github.com/lobehub/chat-plugin-midjourney/releases
-[github-release-shield]: https://img.shields.io/github/v/release/lobehub/chat-plugin-midjourney?color=369eff&labelColor=black&logo=github&style=flat-square
-[github-releasedate-link]: https://github.com/lobehub/chat-plugin-midjourney/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-midjourney?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/lobehub/chat-plugin-midjourney/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-midjourney?color=ffcb47&labelColor=black&style=flat-square
-[pr-welcome-link]: https://github.com/lobehub/chat-plugin-midjourney/pulls
+[github-contrib-link]: https://github.com/lobehub/lobe-midjourney-webui/graphs/contributors
+[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Flobe-midjourney-webui
+[github-contributors-link]: https://github.com/lobehub/lobe-midjourney-webui/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-midjourney-webui?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/lobehub/lobe-midjourney-webui/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-midjourney-webui?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/lobehub/lobe-midjourney-webui/issues
+[github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-midjourney-webui?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/lobehub/lobe-midjourney-webui/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/lobehub/lobe-midjourney-webui?color=white&labelColor=black&style=flat-square
+[github-release-link]: https://github.com/lobehub/lobe-midjourney-webui/releases
+[github-release-shield]: https://img.shields.io/github/v/release/lobehub/lobe-midjourney-webui?color=369eff&labelColor=black&logo=github&style=flat-square
+[github-releasedate-link]: https://github.com/lobehub/lobe-midjourney-webui/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-midjourney-webui?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/lobehub/lobe-midjourney-webui/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-midjourney-webui?color=ffcb47&labelColor=black&style=flat-square
+[pr-welcome-link]: https://github.com/lobehub/lobe-midjourney-webui/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20欢迎投稿-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
